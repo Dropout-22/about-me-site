@@ -7,7 +7,7 @@
   <title>About Me | Anthony K. Kariuki</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8U4j3z5e5a5e5a5e5a5e5a5e5a5e5a5e5a5e" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -21,6 +21,7 @@
         <li><a href="#projects">Projects</a></li>
       </ul>
     </nav>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
   </header>
 
   <!-- HERO SECTION -->
@@ -63,6 +64,23 @@
       </div>
     </div>
   </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mrbpwjkl" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+  
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
   
   <!-- FOOTER -->
     <footer>
@@ -76,5 +94,7 @@
         <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
       </ul>
     </footer>
+    <button id="backToTop" title="Go to top">⬆️</button>
+    <script src="script.js"></script>
 </body>
 </html>
